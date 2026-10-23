@@ -1,0 +1,224 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Aarav Sharma",
+      "rollNo": "21CSE001",
+      "email": "aarav.sharma@college.edu",
+      "phone": "9876543210",
+      "department": "CSE",
+      "cgpa": 8.7,
+      "graduationYear": 2026,
+      "skills": "React, Node.js, MongoDB"
+    },
+    {
+      "id": "2",
+      "name": "Diya Patel",
+      "rollNo": "21ECE014",
+      "email": "diya.patel@college.edu",
+      "phone": "9123456780",
+      "department": "ECE",
+      "cgpa": 9.1,
+      "graduationYear": 2026,
+      "skills": "Embedded C, VLSI, MATLAB"
+    },
+    {
+      "id": "3",
+      "name": "Rohan Verma",
+      "rollNo": "21IT022",
+      "email": "rohan.verma@college.edu",
+      "phone": "9988776655",
+      "department": "IT",
+      "cgpa": 7.8,
+      "graduationYear": 2026,
+      "skills": "Java, Spring Boot, SQL"
+    },
+    {
+      "id": "4",
+      "name": "Sneha Reddy",
+      "rollNo": "21MECH009",
+      "email": "sneha.reddy@college.edu",
+      "phone": "9001122334",
+      "department": "MECH",
+      "cgpa": 8.2,
+      "graduationYear": 2026,
+      "skills": "AutoCAD, SolidWorks"
+    },
+    {
+      "id": "5",
+      "name": "Kabir Khan",
+      "rollNo": "21CSE031",
+      "email": "kabir.khan@college.edu",
+      "phone": "9812345678",
+      "department": "CSE",
+      "cgpa": 6.9,
+      "graduationYear": 2027,
+      "skills": "Python, Machine Learning"
+    },
+    {
+      "name": "Likhitha Padi",
+      "rollNo": "21IT09",
+      "email": "padilikhitha@gmail.com",
+      "phone": "9491807161",
+      "department": "IT",
+      "cgpa": 8.9,
+      "graduationYear": 2028,
+      "skills": "html,css,js",
+      "id": "I3Adx6p"
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "TechNova Solutions",
+      "industry": "Software",
+      "location": "Bengaluru",
+      "website": "https://technova.example.com",
+      "contactPerson": "Priya Nair",
+      "email": "hr@technova.example.com",
+      "phone": "080-45678901"
+    },
+    {
+      "id": "2",
+      "name": "BluePeak Systems",
+      "industry": "IT Services",
+      "location": "Hyderabad",
+      "website": "https://bluepeak.example.com",
+      "contactPerson": "Arjun Mehta",
+      "email": "careers@bluepeak.example.com",
+      "phone": "040-23456789"
+    },
+    {
+      "id": "3",
+      "name": "Orion Motors",
+      "industry": "Automobile",
+      "location": "Chennai",
+      "website": "https://orionmotors.example.com",
+      "contactPerson": "Lakshmi Iyer",
+      "email": "hr@orionmotors.example.com",
+      "phone": "044-34567890"
+    },
+    {
+      "id": "4",
+      "name": "DataSpring Analytics",
+      "industry": "Data Analytics",
+      "location": "Pune",
+      "website": "https://dataspring.example.com",
+      "contactPerson": "Vikram Joshi",
+      "email": "talent@dataspring.example.com",
+      "phone": "020-55667788"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Software Engineer",
+      "companyId": "1",
+      "jobType": "Full-time",
+      "location": "Bengaluru",
+      "packageLpa": 12,
+      "minCgpa": 7,
+      "deadline": "2026-11-15",
+      "status": "Open",
+      "description": "Build scalable web applications using React and Node.js."
+    },
+    {
+      "id": "2",
+      "title": "Associate Data Analyst",
+      "companyId": "4",
+      "jobType": "Full-time",
+      "location": "Pune",
+      "packageLpa": 8.5,
+      "minCgpa": 7,
+      "deadline": "2026-11-20",
+      "status": "Open",
+      "description": "Analyze business datasets and build dashboards for clients."
+    },
+    {
+      "id": "3",
+      "title": "Systems Engineering Intern",
+      "companyId": "2",
+      "jobType": "Internship",
+      "location": "Hyderabad",
+      "packageLpa": 0.6,
+      "minCgpa": 7.5,
+      "deadline": "2026-10-30",
+      "status": "Open",
+      "description": "Six-month internship working on enterprise integration projects."
+    },
+    {
+      "id": "4",
+      "title": "Graduate Trainee - Design",
+      "companyId": "3",
+      "jobType": "Full-time",
+      "location": "Chennai",
+      "packageLpa": 6.5,
+      "minCgpa": 7,
+      "deadline": "2026-10-10",
+      "status": "Closed",
+      "description": "Mechanical design trainee for vehicle components."
+    },
+    {
+      "id": "5",
+      "title": "Junior Java Developer",
+      "companyId": "2",
+      "jobType": "Full-time",
+      "location": "Hyderabad",
+      "packageLpa": 7.2,
+      "minCgpa": 7.5,
+      "deadline": "2026-12-01",
+      "status": "Open",
+      "description": "Develop backend services using Java and Spring Boot."
+    }
+  ],
+  "applications": [
+    {
+      "id": "1",
+      "studentId": "1",
+      "jobId": "1",
+      "appliedDate": "2026-10-01",
+      "status": "Shortlisted",
+      "remarks": "Strong React projects"
+    },
+    {
+      "id": "2",
+      "studentId": "2",
+      "jobId": "2",
+      "appliedDate": "2026-10-02",
+      "status": "Selected",
+      "remarks": "Excellent analytics case study"
+    },
+    {
+      "id": "3",
+      "studentId": "3",
+      "jobId": "5",
+      "appliedDate": "2026-10-03",
+      "status": "Interview",
+      "remarks": "Round 2 scheduled"
+    },
+    {
+      "id": "4",
+      "studentId": "1",
+      "jobId": "5",
+      "appliedDate": "2026-10-05",
+      "status": "Applied",
+      "remarks": ""
+    },
+    {
+      "id": "5",
+      "studentId": "4",
+      "jobId": "4",
+      "appliedDate": "2026-09-28",
+      "status": "Rejected",
+      "remarks": "Did not clear technical round"
+    },
+    {
+      "id": "6",
+      "studentId": "3",
+      "jobId": "1",
+      "appliedDate": "2026-10-04",
+      "status": "Applied",
+      "remarks": ""
+    }
+  ]
+}

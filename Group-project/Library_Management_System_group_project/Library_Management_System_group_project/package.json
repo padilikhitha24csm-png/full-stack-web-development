@@ -1,0 +1,23 @@
+{
+  "name": "library-management-system",
+  "version": "1.0.0",
+  "description": "Full-stack Library Management System built with React, Node.js, Express, and MySQL",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "backend": "npm --prefix backend start",
+    "backend:dev": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build"
+  },
+  "keywords": [
+    "library-management",
+    "react",
+    "vite",
+    "nodejs",
+    "express",
+    "mysql",
+    "full-stack"
+  ],
+  "author": "",
+  "license": "ISC"
+}
